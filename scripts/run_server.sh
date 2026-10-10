@@ -53,7 +53,8 @@ args=(
   --cache-ram 0
   --no-cache-idle-slots
   --no-context-shift
-  --load-mode mmap
+  --load-mode none
+  --lazy-mode off
   --metrics
   --slots
   --host 127.0.0.1
