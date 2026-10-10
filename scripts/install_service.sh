@@ -47,10 +47,10 @@ case "$profile" in
     manifest_profile=q3-q3kxl
     ;;
   q3-q3kxl-mtp4)
-    ctx_size=65536
+    ctx_size=262144
     parallel=1
     batch_size=2048
-    ubatch_size=512
+    ubatch_size=2048
     ngram_mod=0
     spec_mode=mtp-4
     binary_rel=build-gb10-mtp/bin/llama-server
