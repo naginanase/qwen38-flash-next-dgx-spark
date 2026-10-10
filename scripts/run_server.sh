@@ -50,7 +50,7 @@ args=(
   --cache-prompt
   --cache-reuse 0
   --slot-prompt-similarity 0.10
-  --cache-ram 0
+  --cache-ram 8192
   --no-cache-idle-slots
   --no-context-shift
   --load-mode none
